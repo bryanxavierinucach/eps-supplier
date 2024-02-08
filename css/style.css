@@ -462,17 +462,17 @@ a.readmore_bt {
 }
 
 nav.main-menu {
-	float: right;
+	float: center;
 	margin-left: 0;
 }
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-	color: #ffc221;
+	color: #91BDD9;
 }
 
 .menu-area-main li.active a {
-	color: #ffc221;
+	color: #91BDD9;
 }
 
 .right_cart_section {
@@ -491,9 +491,9 @@ nav.main-menu {
 	padding: 18px 0 0;
 }
 
-.main-menu ul>li nth:child(5) a {
+/* .main-menu ul>li nth:child(5) a {
 	padding-right: 0px;
-}
+} */
 
 .right_cart_section ul li {
 	float: left;
@@ -1049,18 +1049,16 @@ nav.main-menu {
 }
 
 .main-menu ul>li a {
-	padding: 30px 23px 0 23px;
+	padding: 10px 23px 0 40px;
 	line-height: 20px;
 	font-size: 16px;
 	display: block;
 	font-weight: 500;
-	color: #010005;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
-.main-menu ul li:last-child a {
-	padding-right: 0;
-}
+
 
 .sub-down li {
 	background: #ffffff;
@@ -1071,28 +1069,21 @@ nav.main-menu {
 	font-size: 15px;
 	text-transform: capitalize;
 	font-weight: 300;
-	padding: 12px 5px;
 	position: relative;
 	border-bottom: solid #eee 1px;
 }
 
-.main-menu ul>li .sub-down li a::before {}
 
 .main-menu ul>li .sub-down li a:hover {
 	color: #111111;
 }
 
-.main-menu ul>li .sub-down li a:hover::before {}
 
-.main-menu ul li:first-child {
-	margin-left: 0;
-}
 
 .main-menu ul>li>ul {
 	opacity: 0;
 	position: absolute;
-	text-align: left;
-	top: 100%;
+	text-align: center;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 0 0 0;
@@ -1100,7 +1091,6 @@ nav.main-menu {
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	visibility: hidden;
-	width: 240px;
 	z-index: 999;
 	background: #fff;
 	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -1125,8 +1115,6 @@ nav.main-menu {
 	transform: scaleY(1);
 	visibility: visible;
 	opacity: 1;
-	left: 100%;
-	top: 10px;
 }
 
 .main-menu ul>li>ul>li>a {
@@ -1143,10 +1131,6 @@ nav.main-menu {
 	position: inherit;
 	display: inline-block;
 	vertical-align: middle;
-}
-
-.main-menu ul>li:nth-child (6) {
-	padding-right: 0px;
 }
 
 .nav>li {
@@ -1662,7 +1646,12 @@ float: right;
 
 .head_top {background: #ffc221;
 margin-bottom: 35px;
+padding-bottom: 55px;
 }
+.head_menu {background: #36ece9;
+	margin-bottom: 35px;
+	padding-bottom: 55px;
+	}
 ul.sociel_link {
 	display: flex;
 flex-wrap: wrap;
@@ -1691,8 +1680,7 @@ border-radius: 100%;
 font-size: 18px;
 }
 .header {
-	background: #6fd6cd;
-	padding-bottom: 35px;
+	background: #ffffff;
 }
 
 .logo a {
@@ -1741,7 +1729,7 @@ margin-top: 20px;
 .banner-main .carousel-caption a:hover {
 	background: #000;
 }
-.yellow_bold {color: #ffc221;}
+.yellow_bold {color: #43D9AE;}
 
 /** whyschose section **/
 
@@ -2062,7 +2050,7 @@ margin-top: 20px;
 /** footer section **/
 
 .footer {
-	background: #1b1b1b;
+	background: #03588C;
     padding-top: 70px;
 }
 ul.sociel {
@@ -2130,7 +2118,7 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #ffc221;
+	background-color: #43D9AE;
 	padding: 20px 0px;
 	margin-top: 70px;
 }
