@@ -1058,7 +1058,9 @@ nav.main-menu {
 	text-transform: uppercase;
 }
 
-
+.main-menu ul li:last-child a {
+	padding-right: 0;
+}
 
 .sub-down li {
 	background: #ffffff;
@@ -1073,12 +1075,17 @@ nav.main-menu {
 	border-bottom: solid #eee 1px;
 }
 
+.main-menu ul>li .sub-down li a::before {}
 
 .main-menu ul>li .sub-down li a:hover {
 	color: #111111;
 }
 
+.main-menu ul>li .sub-down li a:hover::before {}
 
+.main-menu ul li:first-child {
+	margin-left: 0;
+}
 
 .main-menu ul>li>ul {
 	opacity: 0;
@@ -1131,6 +1138,10 @@ nav.main-menu {
 	position: inherit;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.main-menu ul>li:nth-child (6) {
+	padding-right: 0px;
 }
 
 .nav>li {
