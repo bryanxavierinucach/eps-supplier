@@ -1858,7 +1858,7 @@ ul.sociel_link li a {
 
 /** service section **/
 .service {
-	background: #fff;
+	background: #91BDD9;
 	padding-top: 90px;
 }
 
@@ -2242,7 +2242,47 @@ ul.lik li a:hover {
 	font-weight: 500;
 	text-align: center;
 }
+/**Brand color 2*/
 
+.brand_color2 .titlepage h2 {
+	font-weight: bold;
+	font-size: 40px !important;
+	text-transform: uppercase;
+}
+
+
+.brand_color2 {
+	background-color: #ffffff;
+	margin-top: 60px;
+	padding-bottom: 70px;
+}
+
+.brand_color2 .titlepage {
+	margin-top: 60px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+.brand_color2 .abouttitle h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 45px;
+	padding: 40px 0;
+	font-weight: 500;
+	text-align: center;
+}
+
+.titleList{
+	color: #171f1f;
+	font-size: 16px;
+	text-decoration: underline;
+	text-underline-offset: 7px;
+	padding-bottom:10px ;
+}
+.titlePrimary{
+	text-align: center;
+}
 
 .contact .main_form {
 	background: #fff;
