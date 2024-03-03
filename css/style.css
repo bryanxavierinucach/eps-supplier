@@ -1140,9 +1140,6 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (6) {
-	padding-right: 0px;
-}
 
 .nav>li {
 	position: inherit;
@@ -1159,7 +1156,6 @@ nav.main-menu {
 	padding: 15px 0px;
 }
 
-.sub-full {}
 
 .simple-down {
 	padding: 15px;
@@ -2473,4 +2469,13 @@ ul.lik li a:hover {
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+.navbar ul li a {
+	font-size: 17px;
+}
+
+.navbar {
+	margin: 0%;
+	padding: 0.5px 1rem;
 }
