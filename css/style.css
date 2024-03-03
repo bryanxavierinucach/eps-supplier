@@ -2242,6 +2242,7 @@ ul.lik li a:hover {
 	font-weight: 500;
 	text-align: center;
 }
+
 /**Brand color 2*/
 
 .brand_color2 .titlepage h2 {
@@ -2273,14 +2274,19 @@ ul.lik li a:hover {
 	text-align: center;
 }
 
-.titleList{
+.titleList {
 	color: #171f1f;
 	font-size: 16px;
 	text-decoration: underline;
 	text-underline-offset: 7px;
-	padding-bottom:10px ;
+	padding-bottom: 10px;
 }
-.titlePrimary{
+
+.subtitleList {
+	color: #03588C;
+}
+
+.titlePrimary {
 	text-align: center;
 }
 
@@ -2519,3 +2525,39 @@ ul.lik li a:hover {
 	margin: 0%;
 	padding: 0.5px 1rem;
 }
+
+.clients {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.clients img {
+	max-width: 45%;
+	transition: all 0.4s ease-in-out;
+	display: inline-block;
+	padding: 15px 0;
+}
+
+.clients img:hover {
+	transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+	.clients img {
+		max-width: 40%;
+	}
+}
+
+.container4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+  }
+  
+  .events img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 310px;
+  }
