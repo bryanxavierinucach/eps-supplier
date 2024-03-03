@@ -27,6 +27,8 @@
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <!-- body -->
 
@@ -46,23 +48,40 @@
                      style="width: 12%; margin: -1.8%;padding:0;" /></a>
             </div>
          </div>
-         <div style="background-color: #03588C; height: 43px;">
-            <div class="container">
-               <div class="menu-area">
-                  <div class="limit-box">
-                     <nav class="main-menu">
-                        <ul class="menu-area-main">
-                           <li> <a href="index.html">Inicio</a> </li>
-                           <li class="active"> <a href="about.html">Nosotros</a> </li>
-                           <li> <a href="product.html">Productos</a> </li>
-                           <li> <a href="about.html"> Repositorio</a> </li>
-                           <li> <a href="contact.html">Contacto</a> </li>
-                        </ul>
-                     </nav>
-                  </div>
+         <div style="background-color: #03588C;">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <div class="container-fluid">
+                  <ul class="navbar-nav mx-auto">
+                     <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+                     </li>
+                     <li class="nav-item active ">
+                        <a class="nav-link " href="about.html"">NOSOTROS</a>
+                        </li>
+                        <li class=" nav-item dropdown">
+                           <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              PRODUCTOS
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Bombas </a></li>
+                              <li><a class="dropdown-item" href="#">Intercambiadores de Calor</a></li>
+                              <li><a class="dropdown-item" href="#">Mangueras Sanitarias </a></li>
+                              <li><a class="dropdown-item" href="#">Piezas de Repuesto para purificadoras </a></li>
+                              <li><a class="dropdown-item" href="#">Piezas de repuesto para motores </a></li>
+                              <li><a class="dropdown-item" href="#">Válvulas Sanitarias </a></li>
+                           </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">REPOSITORIO</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACTOS</a>
+                     </li>
+                  </ul>
                </div>
-            </div>
+            </nav>
          </div>
+      </div>
       </div>
 
       <!-- end header inner -->
@@ -110,13 +129,27 @@
                <div class="about_box">
                   <h3>Valores</h3>
                   <ul>
-                     <li><p>Ahorro</p></li>
-                     <li><p>Innovación </p></li>
-                     <li><p>Logistica </p></li>
-                     <li><p>Apoyo y desarrollo </p></li>
-                     <li><p>Operatividad </p></li>
-                     <li><p>Envíos a todo el mundo </p></li>
-                     <li><p>Componentes en stock </p></li>
+                     <li>
+                        <p>Ahorro</p>
+                     </li>
+                     <li>
+                        <p>Innovación </p>
+                     </li>
+                     <li>
+                        <p>Logistica </p>
+                     </li>
+                     <li>
+                        <p>Apoyo y desarrollo </p>
+                     </li>
+                     <li>
+                        <p>Operatividad </p>
+                     </li>
+                     <li>
+                        <p>Envíos a todo el mundo </p>
+                     </li>
+                     <li>
+                        <p>Componentes en stock </p>
+                     </li>
                   </ul>
                </div>
                <br>
