@@ -2501,12 +2501,22 @@ ul.lik li a:hover {
 	color: #000;
 }
 #main_slider .carousel-control-next2 {
-	width: 52px;
-	height: 52px;
-	background: #fffdfd;
 	opacity: 1;
-	font-size: 30px;
-	color: #000;
+	font-size: 40px;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+#main_slider .carousel-control-next3 {
+	opacity: 1;
+	font-size: 40px;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+#main_slider .carousel-control-next4 {
+	opacity: 1;
+	font-size: 40px;
+	color: #F2F2F2;
+	font-weight: bold;
 }
 
 #main_slider .carousel-control-prev:hover,
@@ -2517,10 +2527,18 @@ ul.lik li a:hover {
 	color: #fff;
 }
 
+#main_slider .carousel-control-next2:hover,
 #main_slider .carousel-control-prev2:hover,
 #main_slider .carousel-control-next2:focus {
-	background: #07D99D;
-	color: #fff;
+	color: #07D99D;
+}
+#main_slider .carousel-control-next3:hover,
+#main_slider .carousel-control-next3:focus {
+	color: #07D99D;
+}
+#main_slider .carousel-control-next4:hover,
+#main_slider .carousel-control-next4:focus {
+	color: #07D99D;
 }
 
 #main_slider a.carousel-control-prev {
@@ -2538,8 +2556,21 @@ ul.lik li a:hover {
 }
 #main_slider a.carousel-control-next2 {
 	position: absolute;
-	left: 10px;
-	top: inherit;
+	left: 190px;
+	top: 350px;
+	bottom: 10px;
+}
+#main_slider a.carousel-control-next3 {
+	position: absolute;
+	left: 580px;
+	top: 350px;
+	bottom: 10px;
+	padding-top: 0%;
+}
+#main_slider a.carousel-control-next4 {
+	position: absolute;
+	left: 1000px;
+	top: 350px;
 	bottom: 10px;
 }
 
