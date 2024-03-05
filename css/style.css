@@ -2500,11 +2500,25 @@ ul.lik li a:hover {
 	font-size: 30px;
 	color: #000;
 }
+#main_slider .carousel-control-next2 {
+	width: 52px;
+	height: 52px;
+	background: #fffdfd;
+	opacity: 1;
+	font-size: 30px;
+	color: #000;
+}
 
 #main_slider .carousel-control-prev:hover,
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
+	background: #07D99D;
+	color: #fff;
+}
+
+#main_slider .carousel-control-prev2:hover,
+#main_slider .carousel-control-next2:focus {
 	background: #07D99D;
 	color: #fff;
 }
@@ -2517,6 +2531,12 @@ ul.lik li a:hover {
 }
 
 #main_slider a.carousel-control-next {
+	position: absolute;
+	left: 10px;
+	top: inherit;
+	bottom: 10px;
+}
+#main_slider a.carousel-control-next2 {
 	position: absolute;
 	left: 10px;
 	top: inherit;
