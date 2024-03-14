@@ -2197,7 +2197,7 @@ ul.lik li a:hover {
 
 .copyright {
 	background-color: #43D9AE;
-	padding: 20px 0px;
+	padding: 0px 0px 0px 0px;
 	margin-top: 70px;
 }
 
@@ -2212,6 +2212,22 @@ ul.lik li a:hover {
 	color: #fff;
 }
 
+.copyright2 {
+	background-color: #ffffff;
+	padding: 20px 0px;
+	margin-top: 0px;
+}
+
+.copyright2 p {
+	color: #023023;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+
+.copyright2 a:hover {
+	color: #fff;
+}
 /** end footer section **/
 /*---------------------------------------------------------------------
     ener page css
