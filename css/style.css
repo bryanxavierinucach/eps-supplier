@@ -2462,6 +2462,11 @@ ul.lik li a:hover {
 	text-align: center;
 }
 
+.sociosBrand{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
 .Currency-bg {
 	background-color: #ad2100;
 }
@@ -2614,6 +2619,21 @@ ul.lik li a:hover {
 .clients img:hover {
 	transform: scale(1.15);
 }
+.socios {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.socios img {
+	max-width: 90%;
+	transition: all 0.4s ease-in-out;
+	display: inline-block;
+	padding: 15px 0;
+}
+
+.socios img:hover {
+	transform: scale(1.15);
+}
 
 .menuBanner:hover {
 	transform: scale(1.15);
@@ -2632,6 +2652,11 @@ ul.lik li a:hover {
 
 @media (max-width: 768px) {
 	.clients img {
+		max-width: 40%;
+	}
+}
+@media (max-width: 768px) {
+	.socios img {
 		max-width: 40%;
 	}
 }
