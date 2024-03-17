@@ -2422,15 +2422,23 @@ ul.lik li a:hover {
 
 
 .about {
-	padding-top: 90px;
+	padding-top: 10px;
 }
+.about .about_box img {
+	height: 100%;
 
-.about .about_box figure {
-	margin: 0;
+}
+.about .about_box {
+	width: 40%;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: hidden;
+	justify-content: center;
 }
 
 .about .about_box figure img {
-	width: 100%;
+	width: 40%;
 }
 
 .about .about_box h3 {
@@ -2686,4 +2694,10 @@ ul.lik li a:hover {
 }
 .iconStyle{
 	padding-left: 30%; padding-top: 20%;
+}
+ol {
+  list-style: symbols(symbolic "*");
+}
+ul {
+	list-style: "*";
 }
