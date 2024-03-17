@@ -2297,6 +2297,12 @@ ul.lik li a:hover {
 	text-underline-offset: 7px;
 	padding-bottom: 10px;
 }
+.titleListWithOutScore {
+	color: #171f1f;
+	font-size: 16px;
+	text-underline-offset: 7px;
+	padding-bottom: 10px;
+}
 
 .textPrimary {
 	color: #171f1f;
