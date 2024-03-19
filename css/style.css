@@ -2591,21 +2591,21 @@ ul.lik li a:hover {
 }
 #main_slider a.carousel-control-next2 {
 	position: absolute;
-	left: 190px;
-	top: 350px;
+	left: 170px;
+	top: 340px;
 	bottom: 10px;
 }
 #main_slider a.carousel-control-next3 {
 	position: absolute;
-	left: 580px;
-	top: 350px;
+	left: 500px;
+	top: 340px;
 	bottom: 10px;
 	padding-top: 0%;
 }
 #main_slider a.carousel-control-next4 {
 	position: absolute;
-	left: 1000px;
-	top: 350px;
+	left: 1020px;
+	top: 340px;
 	bottom: 10px;
 }
 
