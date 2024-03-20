@@ -2768,6 +2768,7 @@ ul {
 }
 
 .bombsBox {
+	text-align: center;
 	border-bottom: solid 6px #03588C ; padding: 30px;
 	border-left: solid 6px #03588C ; padding: 30px;
 	border-top: solid 6px #03588C ; padding: 30px;
@@ -2781,4 +2782,8 @@ ul {
 	background: #91BDD9;
 	border: solid #91BDD9 5px;
 	color: #fff;
+}
+.piezasRep:hover,
+.piezasRep:focus{
+	color: #03588C;
 }
