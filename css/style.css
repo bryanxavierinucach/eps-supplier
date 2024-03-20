@@ -2281,7 +2281,36 @@ ul.lik li a:hover {
 	text-align: left;
 }
 
-.brand_color2 .abouttitle h2 {
+.brand_color3 .abouttitle h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 45px;
+	padding: 40px 0;
+	font-weight: 500;
+	text-align: center;
+}
+
+.brand_color3 .titlepage h2 {
+	font-weight: bold;
+	font-size: 40px !important;
+	text-transform: uppercase;
+}
+
+
+.brand_color3 {
+	background-color: #ffffff;
+	margin-top: 60px;
+	padding-bottom: 5px;
+}
+
+.brand_color3 .titlepage {
+	margin-top: 60px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+.brand_color3 .abouttitle h2 {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 40px;
@@ -2736,4 +2765,20 @@ ul {
 
 .imagenesProds img:hover {
 	transform: scale(1.15);
+}
+
+.bombsBox {
+	border-bottom: solid 6px #03588C ; padding: 30px;
+	border-left: solid 6px #03588C ; padding: 30px;
+	border-top: solid 6px #03588C ; padding: 30px;
+}
+.boxFinal {
+	border-right: solid 6px #03588C ; padding: 30px;
+}
+
+.bombsBox:hover,
+.bombsBox:focus {
+	background: #91BDD9;
+	border: solid #91BDD9 5px;
+	color: #fff;
 }
