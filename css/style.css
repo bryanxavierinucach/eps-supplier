@@ -2228,6 +2228,7 @@ ul.lik li a:hover {
 .copyright2 a:hover {
 	color: #fff;
 }
+
 /** end footer section **/
 /*---------------------------------------------------------------------
     ener page css
@@ -2297,6 +2298,7 @@ ul.lik li a:hover {
 	text-underline-offset: 7px;
 	padding-bottom: 10px;
 }
+
 .titleListWithOutScore {
 	color: #171f1f;
 	font-size: 16px;
@@ -2430,10 +2432,12 @@ ul.lik li a:hover {
 .about {
 	padding-top: 10px;
 }
+
 .about .about_box img {
 	height: 100%;
 
 }
+
 .about .about_box {
 	width: 40%;
 	display: flex;
@@ -2476,7 +2480,7 @@ ul.lik li a:hover {
 	text-align: center;
 }
 
-.sociosBrand{
+.sociosBrand {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -2535,18 +2539,21 @@ ul.lik li a:hover {
 	font-size: 30px;
 	color: #000;
 }
+
 #main_slider .carousel-control-next2 {
 	opacity: 1;
 	font-size: 40px;
 	color: #F2F2F2;
 	font-weight: bold;
 }
+
 #main_slider .carousel-control-next3 {
 	opacity: 1;
 	font-size: 40px;
 	color: #F2F2F2;
 	font-weight: bold;
 }
+
 #main_slider .carousel-control-next4 {
 	opacity: 1;
 	font-size: 40px;
@@ -2567,10 +2574,12 @@ ul.lik li a:hover {
 #main_slider .carousel-control-next2:focus {
 	color: #07D99D;
 }
+
 #main_slider .carousel-control-next3:hover,
 #main_slider .carousel-control-next3:focus {
 	color: #07D99D;
 }
+
 #main_slider .carousel-control-next4:hover,
 #main_slider .carousel-control-next4:focus {
 	color: #07D99D;
@@ -2589,12 +2598,14 @@ ul.lik li a:hover {
 	top: inherit;
 	bottom: 10px;
 }
+
 #main_slider a.carousel-control-next2 {
 	position: absolute;
 	left: 170px;
 	top: 340px;
 	bottom: 10px;
 }
+
 #main_slider a.carousel-control-next3 {
 	position: absolute;
 	left: 500px;
@@ -2602,6 +2613,7 @@ ul.lik li a:hover {
 	bottom: 10px;
 	padding-top: 0%;
 }
+
 #main_slider a.carousel-control-next4 {
 	position: absolute;
 	left: 1020px;
@@ -2633,6 +2645,7 @@ ul.lik li a:hover {
 .clients img:hover {
 	transform: scale(1.15);
 }
+
 .socios {
 	padding: 15px 0;
 	text-align: center;
@@ -2669,6 +2682,7 @@ ul.lik li a:hover {
 		max-width: 40%;
 	}
 }
+
 @media (max-width: 768px) {
 	.socios img {
 		max-width: 40%;
@@ -2689,21 +2703,37 @@ ul.lik li a:hover {
 	max-height: 310px;
 }
 
+.eventsValvulas img {
+	flex: 1;
+	max-width: 25%;
+	height: auto;
+	max-height: 310px;
+}
+
 .boton a {
 	display: block;
 	width: 100%;
 	height: 100%;
 	/* border-left: #03588C solid 1px; */
 }
-.nameIndustry{
+
+.nameIndustry {
 	padding-top: 5%;
 }
-.iconStyle{
-	padding-left: 30%; padding-top: 20%;
+
+.iconStyle {
+	padding-left: 30%;
+	padding-top: 20%;
 }
+
 ol {
-  list-style: symbols(symbolic "*");
+	list-style: symbols(symbolic "*");
 }
+
 ul {
 	list-style: "*";
+}
+
+.imagenesProds img:hover {
+	transform: scale(1.15);
 }
