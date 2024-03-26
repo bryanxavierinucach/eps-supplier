@@ -542,9 +542,35 @@
     .header .row {
         background-color: #F2F2F2;
         margin-right: 0%;
-        margin-left:0%
+        margin-left: 0%
     }
-    .onlyWeb{
+
+    .onlyWeb {
         display: none;
+    }
+}
+
+@media (width >=576px) {
+    .epsLogoMovil {
+        display: none;
+    }
+    .epsLogoWeb {
+        width: 98%;
+        margin: -10%;
+        padding-left: 30%;
+        text-align: center;
+    }
+}
+
+@media (width <=576px) {
+    .epsLogoWeb {
+        display: none;
+        width: 98%;
+        margin: -10%;
+        padding-left: 30%;
+        text-align: center;
+    }
+    .epsLogoMovil {
+        width: 15%;
     }
 }
